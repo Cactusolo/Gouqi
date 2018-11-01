@@ -25,7 +25,7 @@
 - [] **phylogeny and dating**
 - [] **niche modelling _species distribution model_**
 - [] **wrapping up with a paper**
-	@Yao, @Wu @Cactusolo
+	@Ruuyu, @Christmas-Wu @Cactusolo
 
 ## other stuff
 * lists and tables better use ".csv" format put into "data" folder
