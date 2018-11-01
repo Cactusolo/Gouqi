@@ -6,7 +6,7 @@
 - [x] **prepare species list**
 	* all the recorded names
 	* validated by The Plant List (TPL) using [Taxonstand](https://cran.r-project.org/package=Taxonstand)
-	@Ruuyu please check file "data/OpenTree_data/species_list/Gouqi_checkname_TPLQery.csv"
+	@Ruuyu please check file "data/OpenTree_data/species_list/Gouqi_checkname_TPLQery.csv" and "data/Lycium_PL_no_name_TPLQery.csv"
 - [] **data mining**
 1. **_morphological data_**
 	* trait characters
