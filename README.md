@@ -3,9 +3,10 @@
 ## we are going to launch a new project insighted by [Wang et al., (2018)](http://rspb.royalsocietypublishing.org/content/285/1890/20181742?from=groupmessage).
 
 ## Task List
-- [] **prepare species list**
+- [x] **prepare species list**
 	* all the recorded names
 	* validated by The Plant List (TPL) using [Taxonstand](https://cran.r-project.org/package=Taxonstand)
+	@Ruuyu please check file "data/OpenTree_data/species_list/Gouqi_checkname_TPLQery.csv"
 - [] **data mining**
 1. **_morphological data_**
 	* trait characters
@@ -25,7 +26,7 @@
 - [] **phylogeny and dating**
 - [] **niche modelling _species distribution model_**
 - [] **wrapping up with a paper**
-	@Ruuyu, @Christmas-Wu @Cactusolo
+		@Ruuyu, @Christmas-Wu, @Cactusolo
 
 ## other stuff
 * lists and tables better use ".csv" format put into "data" folder
