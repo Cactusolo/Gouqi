@@ -1,0 +1,6 @@
+library(phylotaR)
+wd <- '/home/wushengdan/Desktop/gouqi'
+ncbi_dr <- '/home/wushengdan/software/blast/bin'
+txid <- 24646
+setup(wd = wd, txid = txid, ncbi_dr = ncbi_dr)
+run(wd = wd)

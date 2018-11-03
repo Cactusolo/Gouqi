@@ -1,0 +1,4 @@
+Filepath: /home/wushengdan/software/blast/bin/makeblastdb, version: 2.4.0
+
+Filepath: /home/wushengdan/software/blast/bin/blastn, version: 2.4.0
+

@@ -1,0 +1,339 @@
+-------------------------------------------------
+phylotaR: Implementation of PhyLoTa in R [v1.0.0]
+-------------------------------------------------
+Checking for valid NCBI BLAST+ Tools ...
+Found: [/home/wushengdan/software/blast/bin/makeblastdb]
+Found: [/home/wushengdan/software/blast/bin/blastn]
+Setting up pipeline with the following parameters:
+. blstn      [/home/wushengdan/software/blast/bin/blastn]
+. btchsz     [100]
+. date       [2018-11-02]
+. mdlthrs    [3000]
+. mkblstdb   [/home/wushengdan/software/blast/bin/makeblastdb]
+. mncvrg     [51]
+. mnsql      [250]
+. mxevl      [1e-10]
+. mxnds      [1e+05]
+. mxrtry     [100]
+. mxsql      [2000]
+. mxsqs      [50000]
+. ncps       [1]
+. txid       [24646]
+. v          [FALSE]
+. wd         [/home/wushengdan/Desktop/gouqi]
+-------------------------------------------------
+---------------------------------------------------
+Running pipeline on [unix] at [2018-11-02 10:34:55]
+---------------------------------------------------
+Running stages: taxise, download, cluster, cluster2
+--------------------------------------------
+Starting stage TAXISE: [2018-11-02 10:34:55]
+--------------------------------------------
+Searching taxonomic IDs ...
+Downloading taxonomic records ...
+. [1-100]
+. [101-101]
+Generating taxonomic dictionary ...
+---------------------------------------------
+Completed stage TAXISE: [2018-11-02 10:35:16]
+---------------------------------------------
+----------------------------------------------
+Starting stage DOWNLOAD: [2018-11-02 10:35:16]
+----------------------------------------------
+Identifying suitable clades ...
+Identified [1] suitable clades.
+Downloading hierarchically ...
+Working on parent [id 24646]: [1/1] ...
+. + whole subtree ...
+. . Getting [2600 sqs] ...
+. . . [1-100]
+. . . [101-200]
+. . . [201-300]
+. . . [301-400]
+. . . [401-500]
+. . . [501-600]
+. . . [601-700]
+. . . [701-800]
+. . . [801-900]
+. . . [901-1000]
+. . . [1001-1100]
+. . . [1101-1200]
+. . . [1201-1300]
+. . . [1301-1400]
+. . . [1401-1500]
+. . . [1501-1600]
+. . . [1601-1700]
+. . . [1701-1800]
+. . . [1801-1900]
+. . . [1901-2000]
+. . . [2001-2100]
+. . . [2101-2200]
+. . . [2201-2300]
+. . . [2301-2400]
+. . . [2401-2500]
+. . . [2501-2600]
+Successfully downloaded [2774 sqs] in total.
+-----------------------------------------------
+Completed stage DOWNLOAD: [2018-11-02 10:42:35]
+-----------------------------------------------
+---------------------------------------------
+Starting stage CLUSTER: [2018-11-02 10:42:35]
+---------------------------------------------
+Working on [id 24646]
+. Generating subtree clusters for [id 24646 (genus)]
+. Generating direct clusters for [id 24646(genus)]
+. . [0 sqs]
+. . . Too few sequences, cannot make clusters
+. BLASTing [2774 sqs] ....
+. . Running makeblastdb
+. . Running blastn
+. . Removed [135888/405032] BLAST hits due to insufficient coverage
+. Identified [246] clusters
+. Processing [id 24646] child [id 2079437]
+. . Generating subtree clusters for [id 2079437 (no rank)]
+. . Generating direct clusters for [id 2079437(no rank)]
+. . . [0 sqs]
+. . . . Too few sequences, cannot make clusters
+. . BLASTing [52 sqs] ....
+. . Removed [183/530] BLAST hits due to insufficient coverage
+. . Identified [8] clusters
+. . Processing [id 2079437] child [id 2079436]
+. . . Generating subtree clusters for [id 2079436 (species)]
+. . Processing [id 2079437] child [id 1835654]
+. . . Generating subtree clusters for [id 1835654 (species)]
+. . Processing [id 2079437] child [id 1835653]
+. . . Generating subtree clusters for [id 1835653 (species)]
+. . Processing [id 2079437] child [id 1835652]
+. . . Generating subtree clusters for [id 1835652 (species)]
+. . Processing [id 2079437] child [id 1835651]
+. . . Generating subtree clusters for [id 1835651 (species)]
+. . Processing [id 2079437] child [id 1835650]
+. . . Generating subtree clusters for [id 1835650 (species)]
+. . Processing [id 2079437] child [id 1835649]
+. . . Generating subtree clusters for [id 1835649 (species)]
+. . Processing [id 2079437] child [id 1835648]
+. . . Generating subtree clusters for [id 1835648 (species)]
+. . Processing [id 2079437] child [id 1835647]
+. . . Generating subtree clusters for [id 1835647 (species)]
+. . Processing [id 2079437] child [id 1799597]
+. . . Generating subtree clusters for [id 1799597 (species)]
+. . Processing [id 2079437] child [id 343891]
+. . . Generating subtree clusters for [id 343891 (species)]
+. . Processing [id 2079437] child [id 343890]
+. . . Generating subtree clusters for [id 343890 (species)]
+. . Processing [id 2079437] child [id 155269]
+. . . Generating subtree clusters for [id 155269 (species)]
+. Processing [id 24646] child [id 1968205]
+. . Generating subtree clusters for [id 1968205 (species)]
+. Processing [id 24646] child [id 1353566]
+. . Generating subtree clusters for [id 1353566 (species)]
+. Processing [id 24646] child [id 1167633]
+. . Generating subtree clusters for [id 1167633 (species)]
+. Processing [id 24646] child [id 1167620]
+. . Generating subtree clusters for [id 1167620 (species)]
+. Processing [id 24646] child [id 1108001]
+. . Generating subtree clusters for [id 1108001 (species)]
+. Processing [id 24646] child [id 942187]
+. . Generating subtree clusters for [id 942187 (species)]
+. Processing [id 24646] child [id 942186]
+. . Generating subtree clusters for [id 942186 (species)]
+. Processing [id 24646] child [id 942185]
+. . Generating subtree clusters for [id 942185 (species)]
+. Processing [id 24646] child [id 610252]
+. . Generating subtree clusters for [id 610252 (species)]
+. Processing [id 24646] child [id 459188]
+. . Generating subtree clusters for [id 459188 (species)]
+. Processing [id 24646] child [id 416541]
+. . Generating subtree clusters for [id 416541 (species)]
+. Processing [id 24646] child [id 416540]
+. . Generating subtree clusters for [id 416540 (species)]
+. Processing [id 24646] child [id 416539]
+. . Generating subtree clusters for [id 416539 (species)]
+. Processing [id 24646] child [id 416538]
+. . Generating subtree clusters for [id 416538 (species)]
+. Processing [id 24646] child [id 416537]
+. . Generating subtree clusters for [id 416537 (species)]
+. Processing [id 24646] child [id 416536]
+. . Generating subtree clusters for [id 416536 (species)]
+. Processing [id 24646] child [id 416535]
+. . Generating subtree clusters for [id 416535 (species)]
+. Processing [id 24646] child [id 416534]
+. . Generating subtree clusters for [id 416534 (species)]
+. Processing [id 24646] child [id 416533]
+. . Generating subtree clusters for [id 416533 (species)]
+. Processing [id 24646] child [id 416532]
+. . Generating subtree clusters for [id 416532 (species)]
+. Processing [id 24646] child [id 416531]
+. . Generating subtree clusters for [id 416531 (species)]
+. Processing [id 24646] child [id 416530]
+. . Generating subtree clusters for [id 416530 (species)]
+. Processing [id 24646] child [id 416529]
+. . Generating subtree clusters for [id 416529 (species)]
+. Processing [id 24646] child [id 416528]
+. . Generating subtree clusters for [id 416528 (species)]
+. Processing [id 24646] child [id 416527]
+. . Generating subtree clusters for [id 416527 (species)]
+. Processing [id 24646] child [id 416526]
+. . Generating subtree clusters for [id 416526 (species)]
+. Processing [id 24646] child [id 416525]
+. . Generating subtree clusters for [id 416525 (species)]
+. Processing [id 24646] child [id 416524]
+. . Generating subtree clusters for [id 416524 (species)]
+. Processing [id 24646] child [id 416523]
+. . Generating subtree clusters for [id 416523 (species)]
+. Processing [id 24646] child [id 343894]
+. . Generating subtree clusters for [id 343894 (species)]
+. Processing [id 24646] child [id 343893]
+. . Generating subtree clusters for [id 343893 (species)]
+. Processing [id 24646] child [id 343892]
+. . Generating subtree clusters for [id 343892 (species)]
+. Processing [id 24646] child [id 343888]
+. . Generating subtree clusters for [id 343888 (species)]
+. Processing [id 24646] child [id 343887]
+. . Generating subtree clusters for [id 343887 (species)]
+. Processing [id 24646] child [id 343886]
+. . Generating subtree clusters for [id 343886 (species)]
+. Processing [id 24646] child [id 343885]
+. . Generating subtree clusters for [id 343885 (species)]
+. Processing [id 24646] child [id 343884]
+. . Generating subtree clusters for [id 343884 (species)]
+. Processing [id 24646] child [id 343883]
+. . Generating subtree clusters for [id 343883 (species)]
+. Processing [id 24646] child [id 343882]
+. . Generating subtree clusters for [id 343882 (species)]
+. Processing [id 24646] child [id 343881]
+. . Generating subtree clusters for [id 343881 (species)]
+. Processing [id 24646] child [id 343880]
+. . Generating subtree clusters for [id 343880 (species)]
+. Processing [id 24646] child [id 343879]
+. . Generating subtree clusters for [id 343879 (species)]
+. Processing [id 24646] child [id 155084]
+. . Generating subtree clusters for [id 155084 (species)]
+. Processing [id 24646] child [id 155083]
+. . Generating subtree clusters for [id 155083 (species)]
+. Processing [id 24646] child [id 155082]
+. . Generating subtree clusters for [id 155082 (species)]
+. Processing [id 24646] child [id 155081]
+. . Generating subtree clusters for [id 155081 (species)]
+. Processing [id 24646] child [id 155080]
+. . Generating subtree clusters for [id 155080 (species)]
+. Processing [id 24646] child [id 127640]
+. . Generating subtree clusters for [id 127640 (species)]
+. Processing [id 24646] child [id 127639]
+. . Generating subtree clusters for [id 127639 (species)]
+. Processing [id 24646] child [id 127638]
+. . Generating subtree clusters for [id 127638 (species)]
+. Processing [id 24646] child [id 127637]
+. . Generating subtree clusters for [id 127637 (species)]
+. Processing [id 24646] child [id 127636]
+. . Generating subtree clusters for [id 127636 (species)]
+. Processing [id 24646] child [id 127635]
+. . Generating subtree clusters for [id 127635 (species)]
+. Processing [id 24646] child [id 127634]
+. . Generating subtree clusters for [id 127634 (species)]
+. Processing [id 24646] child [id 127633]
+. . Generating subtree clusters for [id 127633 (species)]
+. Processing [id 24646] child [id 127632]
+. . Generating subtree clusters for [id 127632 (species)]
+. Processing [id 24646] child [id 112883]
+. . Generating subtree clusters for [id 112883 (species)]
+. Processing [id 24646] child [id 112882]
+. . Generating subtree clusters for [id 112882 (species)]
+. Processing [id 24646] child [id 112881]
+. . Generating subtree clusters for [id 112881 (species)]
+. Processing [id 24646] child [id 112880]
+. . Generating subtree clusters for [id 112880 (species)]
+. Processing [id 24646] child [id 112879]
+. . Generating subtree clusters for [id 112879 (species)]
+. Processing [id 24646] child [id 112878]
+. . Generating subtree clusters for [id 112878 (species)]
+. Processing [id 24646] child [id 112877]
+. . Generating subtree clusters for [id 112877 (species)]
+. Processing [id 24646] child [id 112876]
+. . Generating subtree clusters for [id 112876 (species)]
+. Processing [id 24646] child [id 112875]
+. . Generating subtree clusters for [id 112875 (species)]
+. Processing [id 24646] child [id 112874]
+. . Generating subtree clusters for [id 112874 (species)]
+. Processing [id 24646] child [id 112873]
+. . Generating subtree clusters for [id 112873 (species)]
+. Processing [id 24646] child [id 112872]
+. . Generating subtree clusters for [id 112872 (species)]
+. Processing [id 24646] child [id 112871]
+. . Generating subtree clusters for [id 112871 (species)]
+. Processing [id 24646] child [id 112868]
+. . Generating subtree clusters for [id 112868 (species)]
+. . Generating direct clusters for [id 112868(species)]
+. . . [18 sqs]
+. . BLASTing [18 sqs] ....
+. . Removed [0/28] BLAST hits due to insufficient coverage
+. . Identified [14] clusters
+. . BLASTing [14 sqs] ....
+. . Removed [0/40] BLAST hits due to insufficient coverage
+. . Identified [6] clusters
+. . Processing [id 112868] child [id 112870]
+. . . Generating subtree clusters for [id 112870 (varietas)]
+. . Processing [id 112868] child [id 112869]
+. . . Generating subtree clusters for [id 112869 (varietas)]
+. Processing [id 24646] child [id 112867]
+. . Generating subtree clusters for [id 112867 (species)]
+. Processing [id 24646] child [id 112864]
+. . Generating subtree clusters for [id 112864 (species)]
+. . Generating direct clusters for [id 112864(species)]
+. . . [14 sqs]
+. . BLASTing [14 sqs] ....
+. . Removed [0/20] BLAST hits due to insufficient coverage
+. . Identified [12] clusters
+. . BLASTing [8 sqs] ....
+. . Removed [0/16] BLAST hits due to insufficient coverage
+. . Identified [4] clusters
+. . Processing [id 112864] child [id 112866]
+. . . Generating subtree clusters for [id 112866 (varietas)]
+. . Processing [id 112864] child [id 112865]
+. . . Generating subtree clusters for [id 112865 (varietas)]
+. Processing [id 24646] child [id 112863]
+. . Generating subtree clusters for [id 112863 (species)]
+. . Generating direct clusters for [id 112863(species)]
+. . . [271 sqs]
+. . BLASTing [271 sqs] ....
+. . Removed [2065/2966] BLAST hits due to insufficient coverage
+. . Identified [135] clusters
+. . BLASTing [18 sqs] ....
+. . Removed [0/38] BLAST hits due to insufficient coverage
+. . Identified [17] clusters
+. . Processing [id 112863] child [id 2479370]
+. . . Generating subtree clusters for [id 2479370 (varietas)]
+. . Processing [id 112863] child [id 1816538]
+. . . Generating subtree clusters for [id 1816538 (varietas)]
+. . Processing [id 112863] child [id 1112053]
+. . . Generating subtree clusters for [id 1112053 (varietas)]
+. Processing [id 24646] child [id 112862]
+. . Generating subtree clusters for [id 112862 (species)]
+. Processing [id 24646] child [id 112861]
+. . Generating subtree clusters for [id 112861 (species)]
+. Processing [id 24646] child [id 112860]
+. . Generating subtree clusters for [id 112860 (species)]
+. Processing [id 24646] child [id 112859]
+. . Generating subtree clusters for [id 112859 (species)]
+. Processing [id 24646] child [id 87540]
+. . Generating subtree clusters for [id 87540 (species)]
+. Processing [id 24646] child [id 33116]
+. . Generating subtree clusters for [id 33116 (species)]
+[1/1]
+----------------------------------------------
+Completed stage CLUSTER: [2018-11-02 10:43:19]
+----------------------------------------------
+-----------------------------------------------
+Starting stage CLUSTER^2: [2018-11-02 10:43:19]
+-----------------------------------------------
+Loading clusters ...
+Done. Only one cluster set -- skipping cluster^2
+Dropping all clusters of < 3 sqs ...
+Renumbering clusters ...
+Saving ...
+------------------------------------------------
+Completed stage CLUSTER^2: [2018-11-02 10:43:19]
+------------------------------------------------
+-------------------------------------------
+Completed pipeline at [2018-11-02 10:43:19]
+-------------------------------------------
