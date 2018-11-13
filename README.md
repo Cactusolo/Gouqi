@@ -8,7 +8,9 @@
 	* validated by The Plant List (TPL) using [Taxonstand](https://cran.r-project.org/package=Taxonstand)
 	@Ruuyu please check file "data/OpenTree_data/species_list/Gouqi_checkname_TPLQery.csv" and "data/Lycium_PL_no_name_TPLQery.csv"
 	* **Outgroup**
-		_maybe we need to select a few species from its closed relatives or tribes inside Solanoideae (e.g, Grabowskia, Nicandreae?)_
+		_maybe we need to select a few species from its closed relatives or tribes inside Solanoideae (e.g, Grabowskia, Nicandreae?)
+		---[ Atropa belladonna, Jaborosa integrifolia, and Nolana arenicola were recommended] -----_
+	
 - [] **data mining**
 1. **_morphological data_**
 	* trait characters
