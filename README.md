@@ -8,14 +8,16 @@
 	* validated by The Plant List (TPL) using [Taxonstand](https://cran.r-project.org/package=Taxonstand)
 	@Ruuyu please check file "data/OpenTree_data/species_list/Gouqi_checkname_TPLQery.csv" and "data/Lycium_PL_no_name_TPLQery.csv"
 	* **Outgroup**
-		_maybe we need to select a few species from its closed relatives or tribes inside Solanoideae (e.g, Grabowskia, Nicandreae?)
-		---[ Atropa belladonna, Jaborosa integrifolia, and Nolana arenicola were recommended] -----_
+		Mybe we need to select a few species from its closed relatives or tribes inside Solanoideae (e.g, Grabowskia, Nicandreae?)
+		+ _Atropa belladonna_
+		+ _Jaborosa integrifolia_
+		+ _Nolana arenicola_
 	
 - [] **data mining**
 1. **_morphological data_**
 	* trait characters
 	* Medical traits
-2. **_molecular data_**
+2. [x] **_molecular data_**
 	* GenBank data mining using [PhylotaR](https://github.com/ropensci/phylotaR)
 	* choose gene with most coverage
 	* sequence length
@@ -28,6 +30,7 @@
 
 - [] **data cleaning and evaluation**
 - [] **phylogeny and dating**
+	 * adding constraint tree from [Miller et al. (2011)](https://academic.oup.com/mbe/article/28/1/793/986705) [x]
 - [] **niche modelling _species distribution model_**
 - [] **wrapping up with a paper**
 		@Ruuyu, @Christmas-Wu, @Cactusolo
