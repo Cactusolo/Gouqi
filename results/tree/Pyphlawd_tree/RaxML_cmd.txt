@@ -1,0 +1,1 @@
+raxmlHPC-HYBRID-AVX -x $RANDOM -f a -k -m GTRGAMMA -s Lycium_final.fasta -q Lycium_partition.txt -n LyPy_partition -p $RANDOM -N 1000 -T 4
