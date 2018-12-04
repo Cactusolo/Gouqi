@@ -31,6 +31,11 @@
 - [] **data cleaning and evaluation**
 - [] **phylogeny and dating**
 	 * adding constraint tree from [Miller et al. (2011)](https://academic.oup.com/mbe/article/28/1/793/986705) [x]
+	 * updated the phylogeny with Phphlawd data and constraint tree from Miller et al. (2011) and the file path: \results\tree\updated_tree12032018
+	 * two names were validated by the plant list: 
+	 + _Lycium arenicola_ is the syn of _Lycium cinereum_
+	 + _Lycium tenue_ is the syn of _Lycium acutifolium_
+
 - [] **niche modelling _species distribution model_**
 - [] **wrapping up with a paper**
 		@Ruuyu, @Christmas-Wu, @Cactusolo
